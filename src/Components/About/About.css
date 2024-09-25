@@ -1,0 +1,13 @@
+/* About.css */
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
