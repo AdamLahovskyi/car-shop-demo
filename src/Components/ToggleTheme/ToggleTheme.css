@@ -1,0 +1,17 @@
+.theme-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .theme-toggle i {
+    font-size: var(--font-size-large);
+    color: var(--color-accent);
+    transition: color var(--transition-duration);
+  }
+  
+  .theme-toggle i:hover {
+    color: var(--color-accent-dark);
+  }
+  

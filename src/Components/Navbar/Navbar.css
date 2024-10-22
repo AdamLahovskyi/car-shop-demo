@@ -2,19 +2,19 @@
     box-sizing: border-box;
 }
 ul li a{
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-medium);
 }
 
 .title-text{
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: var(--font-size-title);
+    font-weight: var(-font-weight-bold);
 }
 .nav{
-    background-color: #229799;
+    background-color: var(--color-navbar);
     border-radius: 5px;
     opacity: 0.8;
-    color: #F5F5F5;
+    color: var(--color-);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,4 +34,8 @@ ul li a{
 }
 a:hover{
     text-decoration: underline;
+}
+[data-theme='dark'] .nav {
+    background-color: var(--color-navbar);
+    color: var(--color-navbar-text);
 }
